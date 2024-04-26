@@ -1,0 +1,43 @@
+@charset "utf-8";
+header{
+    width:1400px;
+    margin:0 auto 44px;
+}
+header nav ul{
+    display:flex;
+    justify-content: center;
+    border-top: 2px solid #7c5d48;
+    border-bottom: 2px solid #7c5d48;
+    background-color: white;
+    padding: 12px 0px 10px;
+}
+.alogo{
+    text-decoration: none;
+    color:black;
+    font-size: 40px;
+    font-weight:bold;
+}
+.logo{
+    margin: 30px;
+}
+nav > ul {
+    background-color: rgb(230, 230, 230);
+    list-style: none; /* 移除項目符號 */
+    margin: 0;
+    padding: 5px;
+  }
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none; /* 移除超連結底線 */
+  }
+nav a:hover {
+    background-color: rgb(115, 115, 115);
+    color: white;
+  }
+.flex-nav {
+    display: flex;
+    justify-content: center;
+  }
