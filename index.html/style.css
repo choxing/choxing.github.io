@@ -11,6 +11,10 @@ header nav ul{
     background-color: white;
     padding: 12px 0px 10px;
 }
+body{
+  width:1400px;
+  margin:0 auto 44px;
+}
 .alogo{
     text-decoration: none;
     color:black;
@@ -41,3 +45,29 @@ nav a:hover {
     display: flex;
     justify-content: center;
   }
+.main-title{
+    text-align: center;
+}
+.sub-title{
+  text-align: center;
+}
+#container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:20px;
+  grid-template-rows: 150px 150px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.item{
+  text-align: center;
+}
+.item img{
+  height: 150px;;
+  width:1fr;
+  
+  
+}
+.title{
+  text-align: center;
+}
